@@ -12,6 +12,7 @@ import OurProduct from "./OurProduct";
 import Features from "./Features";
 import Collection from "./Collection";
 import ShopByGoal from "./ShopByGoal";
+import ProductInforamtion from "../ProductDetail/ProductInforamtion";
 import Manufacturing from "./Manufacturing";
 import Discription from "./Discription";
 
@@ -62,6 +63,16 @@ const Home = () => {
       <ShopByGoal></ShopByGoal>
 
       <Collection></Collection>
+
+      <div className="dealOfDay">
+
+      <div className="dealOfDayInnerDiv">
+
+      <ProductInforamtion id={"4903030802"}></ProductInforamtion>
+      </div>
+
+      </div>
+     
 
       <Manufacturing></Manufacturing>
     </div>
