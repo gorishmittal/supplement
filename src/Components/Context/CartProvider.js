@@ -11,16 +11,16 @@ const cartReducer = (state, action) => {
     const updatedTotalAmount =
       state.totalAmount + action.item.price * action.item.amount;
 
-    //below we are chaking the id of item added have the same id as on of item present in the cart here item.id has all ids of items present in the cart and action.item.id is the id which item is added currently
+  
     const exisingCartItemIndex = state.items.findIndex(
       (item) => item.id === action.item.id
     );
-    //below we get the item if we get items match and from that index we get the item name
+    
     const exisingCartItem = state.items[exisingCartItemIndex];
     let updatedItems;
 
     if (exisingCartItem) {
-      //here updatedItem contains the item which is prsent in the cart and here we increasing the amount of that item
+      
       const updatedItem = {
         ...exisingCartItem,
         amount: exisingCartItem.amount + action.item.amount,
@@ -28,7 +28,7 @@ const cartReducer = (state, action) => {
 
       updatedItems = [...state.items];
 
-      // updateitems contain all the items in the cart here we replacing the item in which we increased its amount here
+     
       updatedItems[exisingCartItemIndex] = updatedItem;
     } else {
       updatedItems = state.items.concat(action.item);
@@ -51,10 +51,10 @@ const cartReducer = (state, action) => {
     let updatedItems;
 
     if (existingItem.amount === 1) {
-      //here the item wich have same id will not copy in thr updated item
+   
       updatedItems = state.items.filter(item => item.id !== action.id);
     } else {
-      //here updatedItem contains the item which is prsent in the cart and here we dicreasing the amount of that item
+      
       const updatedItem = {
         ...existingItem,
         amount: existingItem.amount - 1
@@ -62,7 +62,7 @@ const cartReducer = (state, action) => {
 
       updatedItems = [...state.items];
 
-      // updateitems contain all the items in the cart here we replacing the item in which we increased its amount here
+      
       updatedItems[exisingCartItemIndex] = updatedItem;
     }
 
