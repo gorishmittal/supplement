@@ -36,9 +36,9 @@ const Collection = () => {
   return (
     <div className="mainContainer">
 
-<div>
+
         <h1 className="CollectionHeading">Shop By Collection</h1>
-      </div>
+   
 
 
       <Carousel responsive={responsive} showDots={true}>

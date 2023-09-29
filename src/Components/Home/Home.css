@@ -85,7 +85,7 @@
   -moz-box-shadow: inset -1px 7px 24px -3px rgba(0,0,0,0.54);
   box-shadow: inset -1px 7px 24px -3px rgba(0,0,0,0.54);
   border-radius: 20px;
-  background-color: white;
+  background-color:white;
 }
 
 @media (max-width: 768px) {
@@ -114,6 +114,12 @@
     align-self: center;
     width: 70%;
   }
+
+  .dealOfDay
+  {
+    padding: 20px;
+  }
+
 
 
 

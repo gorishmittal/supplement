@@ -56,5 +56,34 @@
     {
         display: block;
     }
+
+    .manufactureQualityDiv
+    {
+      width: 100%;
+
+      padding: 20px;
+      
+    }
+
+    .qualityCard
+    {
+      width: fit-content;
+    }
+
+    .manufactureVideo
+    {
+      width: 100%;
+      justify-content: center;
+      display: flex;
+    }
+    .manufactureVideo iframe
+    {
+
+      width: max-content;
+      height:max-content;
+
+      margin-top: 30px;
+      align-self: center;
+    }
     
   }

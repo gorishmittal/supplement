@@ -27,7 +27,7 @@ const Header = (props) => {
 
           <div class="menu">
             <li class="productCSS">
-              <a >PRODUCTS</a>
+              <a>PRODUCTS</a>
 
               <ul class="dropdownHeader">
                 {category.map((items) => (
@@ -55,9 +55,7 @@ const Header = (props) => {
             <li>
               <a href="/">EVENTS</a>
             </li>
-            <li>
-              <a href="/">TRACK ORDER</a>
-            </li>
+           
           </div>
         </ul>
       </nav>

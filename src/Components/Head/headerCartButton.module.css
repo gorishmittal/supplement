@@ -58,3 +58,26 @@
     transform: scale(1);
   }
 }
+
+
+  
+  /* APPLYING MEDIA QUERIES */
+  @media (max-width: 768px) {
+
+.button
+
+{
+  padding-left:20px;
+  padding-right: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.text
+{
+  display: none;
+}
+  
+  
+  }
+

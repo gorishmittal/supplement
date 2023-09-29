@@ -156,15 +156,30 @@
    
 }
 
-.FilterPrice>h3
-{
-    font-size: 15px;
-    font-weight: 600;
-}
 
 @media (max-width: 768px) {
 
-    .ProductCollection
+    
+  .ProductCollectionTopHeader
+  {
+
+    display: block;
+  }
+  
+  .headcolumn2
+  {
+
+    width: 100%;
+  }
+
+  .headImagediv
+  {
+    width: 100%;
+    
+  }
+  
+  
+  .ProductCollection
     {
         width: 80%;
      
@@ -173,6 +188,17 @@
     .ProductSection
     {
         display: block;
+    }
+
+    .FilterSection
+    {
+      width: 100%;
+
+      padding-bottom: 0px;
+
+      position:relative;
+      position:relative;
+      top: 0;
     }
 
 }

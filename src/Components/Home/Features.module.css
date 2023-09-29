@@ -62,3 +62,36 @@ padding: 20px;
  margin-top: 15px;
  font-weight: 700;
 }
+
+
+@media (max-width: 768px) {
+
+
+
+.iconDiv
+{
+    padding: 10px;
+}
+
+.outerDiv
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   
+}
+
+.mainHead
+{
+    font-size: 10px;
+    align-self: center;
+    text-align: center;
+}
+
+
+.elivatedDiv
+{
+    margin-top: 0px;
+}
+
+}

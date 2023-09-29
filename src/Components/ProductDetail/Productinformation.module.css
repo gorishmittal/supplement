@@ -221,3 +221,23 @@
 
   
 }
+
+
+@media (max-width: 768px)  {
+
+.mainDiv
+{
+  display: block;
+}
+
+.productImageDiv
+{
+  width: 100%;
+}
+
+.productInfoDiv
+{
+  width: 100%;
+}
+
+}

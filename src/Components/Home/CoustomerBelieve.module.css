@@ -76,4 +76,33 @@
   }
 
 
+  @media (max-width: 768px) {
+
+    .main
+    {
+      padding: 20px;
+    }
+
+    .mainHead
+    {
+      font-size: 70px;
+      text-align: center;
+      
+    }
+
+    .subHead
+    {
+      text-align: center;
+    }
+
+    .buttonMain
+    {
+      align-self:center;
+
+    }
+
+
+  }
+
+
   

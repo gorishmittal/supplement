@@ -140,14 +140,15 @@
       background-color:#991214;
       right: 0;
       left: 0;
-      text-align: center;
-      padding: 16px 0;
+      margin-top: 10px;
+      padding-left: 20px !important;
+      padding: 14px 0;
     }
   
     .menu li:hover {
       display: inline-block;
-      background-color:#991214;
-      transition: 0.3s ease;
+      background-color:#260505;
+      transition: 0.4s ease;
     }
   
     .menu li + li {
@@ -163,12 +164,36 @@
     }
   
     .dropdownHeader {
-      left: 50%;
-      top: 30px;
+      left: 40%;
+      top: 0px;
       transform: translateX(35%);
+      background-color: #260505;
     }
   
     .dropdownHeader li:hover {
-      background-color: #4c9e9e;
+      background-color: #991214;
     }
+
+    .navbar
+    {
+      flex: 0;
+      margin-left: 0px;
+     
+    }
+
+    .header
+    {
+      display: flex;
+      justify-content: space-between;
+
+    }
+
+    .header_logo
+    {
+      width: 90px;
+      margin: 0;
+    }
+
+
+
   }

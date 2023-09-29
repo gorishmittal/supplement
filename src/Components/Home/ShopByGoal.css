@@ -1,133 +1,134 @@
-.shopmainDiv
-{
-    height: 700px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+.shopmainDiv {
+  height: 700px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 
-    
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-.ShopTopHeading
-{
-    color:aliceblue;
-    align-self: center;
-    font-size: 80px;
-    opacity: 0.5;
-    letter-spacing: 0.1ch;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+.ShopTopHeading {
+  color: aliceblue;
+  align-self: center;
+  font-size: 80px;
+  opacity: 0.5;
+  letter-spacing: 0.1ch;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
 }
 
-.ShopCardDiv
-{
+.ShopCardDiv {
+  margin-top: 100px;
 
-    margin-top: 100px;
-    
-
-    padding-left: 8%;
-    padding-right:8%;
-
+  padding-left: 8%;
+  padding-right: 8%;
 }
 
 .Shopcontainer {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  
-  .Shopcard_box {
-    width: 200px;
-    height: 300px;
-    border-radius: 20px;
-    background: linear-gradient(170deg, rgba(58, 56, 56, 0.623) 0%, rgb(31, 31, 31) 100%);
-    position: relative;
-    box-shadow: 0 25px 50px rgba(0,0,0,0.55);
-    cursor: pointer;
-    transition: all .3s;
-    justify-content: center;
-    display: flex;
-    flex-direction: column;
-  }
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
-  .Shopcard_box >img
-  {
-    width: 190px;
-    object-fit: contain;
-  }
+.Shopcard_box {
+  width: 200px;
+  height: 300px;
+  border-radius: 20px;
+  background: linear-gradient(
+    170deg,
+    rgba(58, 56, 56, 0.623) 0%,
+    rgb(31, 31, 31) 100%
+  );
+  position: relative;
+  box-shadow: 0 25px 50px rgba(0, 0, 0, 0.55);
+  cursor: pointer;
+  transition: all 0.3s;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
 
-  .Shopcard_box >p
-  {
-    color:white;
-    margin-top: 10px;
-    align-self: center;
-    text-transform: capitalize;
-  }
-  
-  .Shopcard_box:hover {
-    transform: scale(0.9);
-  }
-  
-  .Shopcard_box span {
-    position: absolute;
-    overflow: hidden;
-    width: 150px;
-    height: 150px;
-    top: -10px;
-    left: -10px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  
-  .Shopcard_box span::before {
-    content: 'SHOP NOW';
-    position: absolute;
-    width: 150%;
-    height: 40px;
-    background-image: linear-gradient(45deg, #ff6547 0%, #ffb144  51%, #ff7053  100%);
-    transform: rotate(-45deg) translateY(-20px);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: #fff;
-    font-weight: 600;
-    letter-spacing: 0.1em;
-    text-transform: uppercase;
-    z-index: 40;
-    box-shadow: 0 5px 10px rgba(0,0,0,0.23);
-  }
-  
-  .Shopcard_box span::after {
-    content: '';
-    position: absolute;
-    width: 10px;
-    bottom: 0;
-    left: 0;
-    height: 10px;
-    z-index: -1;
-    box-shadow: 140px -140px #cc3f47;
-    background-image: linear-gradient(45deg, #FF512F 0%, #F09819  51%, #FF512F  100%);
-  }
+.Shopcard_box > img {
+  width: 190px;
+  object-fit: contain;
+}
 
-  @media (max-width: 768px) {
- .ShopTopHeading
- {
+.Shopcard_box > p {
+  color: white;
+  margin-top: 10px;
+  align-self: center;
+  text-transform: capitalize;
+}
+
+.Shopcard_box:hover {
+  transform: scale(0.9);
+}
+
+.Shopcard_box span {
+  position: absolute;
+  overflow: hidden;
+  width: 150px;
+  height: 150px;
+  top: -10px;
+  left: -10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Shopcard_box span::before {
+  content: "SHOP NOW";
+  position: absolute;
+  width: 150%;
+  height: 40px;
+  background-image: linear-gradient(
+    45deg,
+    #ff6547 0%,
+    #ffb144 51%,
+    #ff7053 100%
+  );
+  transform: rotate(-45deg) translateY(-20px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  z-index: 40;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.23);
+}
+
+.Shopcard_box span::after {
+  content: "";
+  position: absolute;
+  width: 10px;
+  bottom: 0;
+  left: 0;
+  height: 10px;
+  z-index: -1;
+  box-shadow: 140px -140px #cc3f47;
+  background-image: linear-gradient(
+    45deg,
+    #ff512f 0%,
+    #f09819 51%,
+    #ff512f 100%
+  );
+}
+
+@media (max-width: 768px) {
+  .ShopTopHeading {
     font-size: 35px;
     margin-bottom: 30px;
- }
-
- .ShopCardDiv
- {
-    margin-top: 0;
- }
-
- .shopmainDiv
- {
-    height: 500px;
- }
-
   }
+
+  .ShopCardDiv {
+    margin-top: 0;
+  }
+
+  .shopmainDiv {
+    height: 500px;
+  }
+}
