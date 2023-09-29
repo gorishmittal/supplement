@@ -1,0 +1,37 @@
+
+.imageSlider
+{
+    padding: 30px;
+  
+}
+
+.mainImage
+{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+    flex-direction: column;
+}
+
+.mainImage >img
+{
+    width: 500px;
+    align-self: center;
+}
+
+.Image
+{
+    width: 200px;
+    padding: 30px;
+    border-radius: 30px;
+
+}
+
+.Image:hover
+{
+    animation: forwards;
+    transition: 500ms;
+    transform:scale(1.1) ;
+}
+
+

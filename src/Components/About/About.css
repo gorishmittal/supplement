@@ -1,0 +1,108 @@
+.breadcrumb-section {
+	height: 500px;
+	padding-top: 230px;
+}
+
+.breadcrumb-text h2 {
+	font-size: 60px;
+	color: #ffffff;
+	font-weight: 600;
+	text-transform: uppercase;
+	margin-bottom: 15px;
+}
+
+.breadcrumb-text .bt-option a {
+	font-size: 18px;
+	color: #ffffff;
+	font-weight: 700;
+	display: inline-block;
+	position: relative;
+	margin-right: 20px;
+}
+
+.breadcrumb-text .bt-option a:after {
+	position: absolute;
+	right: -4px;
+	top: 6px;
+	font-family: "FontAwesome";
+	
+	font-size: 13px;
+	font-weight: 400;
+}
+
+.breadcrumb-text .bt-option span {
+	font-size: 18px;
+	color: #991214;
+	font-weight: 700;
+}
+
+
+.choseus-section {
+	background: #0a0a0a;
+	padding-bottom: 70px;
+    padding-top: 100px;
+
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.section-title
+{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 50px;
+    
+
+}
+
+.section-title h2
+{
+    color: white;
+    align-self: center;
+}
+
+.section-title >h3
+{
+    color: #991214;
+    font-size: 18px;
+    font-weight: 800;
+    align-self: center;
+    margin-bottom: 10px;
+}
+.cs-item {
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+.cs-item:hover span {
+	background:#991214;
+	color: #ffffff;
+}
+
+.cs-item span {
+	height: 90px;
+	width: 90px;
+	background: rgba(255, 255, 255, 0.1);
+	border-radius: 50%;
+	display: inline-block;
+	color: #f36100;
+	line-height: 90px;
+	text-align: center;
+	-webkit-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+.cs-item h4 {
+	color: #ffffff;
+	font-size: 22px;
+	font-weight: 600;
+	margin-top: 24px;
+	margin-bottom: 16px;
+}
+
+.cs-item p{
+
+    color: white;
+}

@@ -1,0 +1,47 @@
+.BestSaler
+{
+  
+  padding: 5%;
+  background-color: black;
+}
+
+.BestSalerProduct
+{
+  
+  
+  position: relative;
+  overflow: hidden;
+  padding: 26px;
+
+}
+
+.BestSalerHeading
+{
+  color: white;
+}
+
+.product-container {
+  padding: 0 10px;
+  display: flex;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+@media (max-width: 768px) {
+
+.BestSaler
+{
+
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+
+  .BestSalerHeading
+  {
+    align-self: center;
+  }
+
+}
+
+

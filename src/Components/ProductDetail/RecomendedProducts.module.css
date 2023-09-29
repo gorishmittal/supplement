@@ -1,0 +1,47 @@
+.RecomendedProducts
+{
+  
+  padding: 5%;
+  background-color: white;
+}
+
+.CarouselDiv
+{
+  
+  
+  position: relative;
+  overflow: hidden;
+  padding: 26px;
+
+}
+
+.RecomendedProductsHeading
+{
+  color: black;
+}
+
+.product-container {
+  padding: 0 10px;
+  display: flex;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+@media (max-width: 768px) {
+
+.RecomendedProducts
+{
+
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+
+  .RecomendedProductsHeading
+  {
+    align-self: center;
+  }
+
+}
+
+

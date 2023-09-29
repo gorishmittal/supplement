@@ -1,0 +1,181 @@
+.ProductCollection {
+  display: flex;
+  position: relative;
+  width: 70%;
+  height: 100%;
+  margin: 50px auto;
+  padding: 50px 0 0;
+  
+  
+  flex-wrap: wrap;
+}
+
+
+
+.ProductCollectionTopHeader {
+  display: flex;
+  justify-content: center;
+  
+
+}
+
+.headcolumn1 {
+  width: 60%;
+  padding-left: 40px;
+  padding-top: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.headcolumn2 {
+  width: 50%;
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.headImagediv {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-self: center;
+
+  height: 650px;
+  width: 650px;
+
+ 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+
+  animation: fadeInLeft 1s ease-in-out;
+}
+
+
+.Devidersolid {
+    border-top: 1px solid #bbb;
+   
+  }
+
+  .DevidersolidFilter {
+    border-top: 1px solid #bbb;
+   
+  }
+
+@keyframes fadeInLeft {
+  from {
+    opacity: 0;
+    transform: translateX(300px);
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.headImagediv > img {
+  align-self: center;
+  width: 400px;
+}
+
+.headcolumn1 > h1 {
+  text-transform: uppercase;
+  align-self: center;
+  margin: auto;
+  font-size: 4.5rem;
+  font-weight: 800;
+  animation: lights 5s 750ms linear infinite;
+  opacity: 0.8;
+}
+
+.headcolumn1 > img {
+  width: 150px;
+  opacity: 0.2;
+}
+
+.ProductSection {
+  display: flex;
+}
+
+.FilterSection {
+
+    padding: 90px 40px 0;
+    padding-bottom: 90px;
+    margin-top: 70px;
+    width: 25%;
+    height: 100%;
+
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+   
+
+}
+
+.FilterHeading
+{
+    display: flex;
+   
+    margin-bottom: 30px;
+
+}
+
+.FilterHeading >h3
+{
+
+    margin-left: 25px;
+    font-weight: 600;
+}
+
+.FilterStock
+{
+
+    display: flex;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    justify-content: space-between;
+   
+
+}
+
+.FilterStock>h3
+{
+    font-size: 15px;
+    font-weight: 600;
+    margin-top: 10px;
+   
+}
+
+.FilterPrice
+{
+
+    display: flex;
+    margin-top: 30px;
+    margin-bottom: 30px;
+   
+}
+
+.FilterPrice>h3
+{
+    font-size: 15px;
+    font-weight: 600;
+}
+
+@media (max-width: 768px) {
+
+    .ProductCollection
+    {
+        width: 80%;
+     
+    }
+
+    .ProductSection
+    {
+        display: block;
+    }
+
+}
+
+
+
